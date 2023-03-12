@@ -1,2 +1,2 @@
 #!/bin/bash
-rmdir /tmp/holberton
+rm -rfv /tmp/my_first_directory
