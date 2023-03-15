@@ -9,5 +9,16 @@
 7-file			| Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 8-cwd_state		| Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 9-duplicate_last_line			| Write a script that duplicates the last line of the file iacta
-10-no_more_js		| Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
+10-no_more_js			| Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
 11-directories		| Write a script that counts the number of directories and sub-directories in the current directory
+12-newest_files 		| A script that prints the 10 newest files in the current directory.
+13-unique 			| A script that takes a list of words as input and prints only words that appear exactly once.
+14-findthatword 		| A script that prints lines containing the pattern `"root"` from the file `/etc/passwd`.
+15-countthatword 		| A script that displays the number of lines that contain the pattern `"bin"` in the file `/etc/passwd`.
+16-whatsnext 			| A script that containing the pattern `"root"` and 3 lines after them in the file `/etc/passwd`.
+17-hidethisword 		| A script that displays all the lines in the file `/etc/passwd` that do not contain the pattern `"bin"`.
+18-letteronly 		| A script that displays all lines of the file `/ect/ssh/sshd_config` starting with a letter, including capital letters as well.
+19-AZ 				| A script that replaces all characters `A` and `C` from input to `Z` and `E` respectively.
+20-hiago 			| A script that removes all letters `c` and `C` from input.
+21-reverse			| A script that reverse its input.
+22-users_and_homes 		| A scipt that displays all users and their home directories, sorted by users, based on the `/etc/passwd` file.
